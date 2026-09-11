@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Divine Chizzy | Web Developer</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="logo">DC<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">WELCOME TO MY WEBSITE</p>
+
+            <h1>
+                I Build <span>Digital Experiences</span>
+                That Stand Out.
+            </h1>
+
+            <p class="hero-description">
+                I'm a passionate web developer and technology enthusiast
+                creating modern, useful and engaging websites for people
+                and businesses.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="card-top">
+                <span>AVAILABLE</span>
+                <div class="status"></div>
+            </div>
+
+            <h3>Web Developer</h3>
+
+            <p>
+                Creating modern websites,
+                digital experiences and creative solutions.
+            </p>
+
+            <div class="card-line"></div>
+
+            <div class="card-info">
+                <span>Based in</span>
+                <strong>Nigeria</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="section-heading">
+            <p>ABOUT ME</p>
+            <h2>Turning ideas into <span>digital experiences.</span></h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <p>
+                    I'm a passionate technology enthusiast, blogger,
+                    and aspiring web developer with a strong interest
+                    in website creation and digital technology.
+                </p>
+
+                <p>
+                    I enjoy exploring new ideas, creating useful websites,
+                    learning about technology and sharing what I discover
+                    with others.
+                </p>
+
+                <p>
+                    My goal is to continuously improve my skills and
+                    create digital experiences that are simple, useful,
+                    professional and enjoyable to use.
+                </p>
+
+            </div>
+
+            <div class="about-box">
+
+                <div>
+                    <strong>01</strong>
+                    <span>Creative</span>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <span>Curious</span>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <span>Focused</span>
+                </div>
+
+                <div>
+                    <strong>04</strong>
+                    <span>Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="section services-section">
+
+        <div class="section-heading">
+            <p>WHAT I DO</p>
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="services">
+
+            <div class="service-card">
+                <div class="service-number">01</div>
+                <h3>Website Development</h3>
+                <p>
+                    Modern and responsive websites designed
+                    for individuals, brands and businesses.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">02</div>
+                <h3>Business Websites</h3>
+                <p>
+                    Professional online platforms that help
+                    businesses present their services online.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">03</div>
+                <h3>Personal Websites</h3>
+                <p>
+                    Personal portfolios and websites designed
+                    to showcase your work, skills and identity.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-heading">
+            <p>MY WORK</p>
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 01
+                </div>
+
+                <div class="project-info">
+                    <h3>Creative Portfolio</h3>
+                    <p>
+                        A modern portfolio website designed
+                        to showcase skills and projects.
+                    </p>
+
+                    <a href="#">View Project →</a>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 02
+                </div>
+
+                <div class="project-info">
+                    <h3>Business Website</h3>
+                    <p>
+                        A clean digital platform created
+                        for a modern business.
+                    </p>
+
+                    <a href="#">View Project →</a>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    PROJECT 03
+                </div>
+
+                <div class="project-info">
+                    <h3>Blog Platform</h3>
+                    <p>
+                        A simple and engaging platform for
+                        sharing articles and ideas.
+                    </p>
+
+                    <a href="#">View Project →</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Blog -->
+    <section id="blog" class="section blog-section">
+
+        <div class="section-heading">
+            <p>FROM MY BLOG</p>
+            <h2>Latest <span>Articles</span></h2>
+        </div>
+
+        <div class="blog-grid">
+
+            <article class="blog-card">
+                <p class="blog-category">TECHNOLOGY</p>
+                <h3>The Future of Technology</h3>
+                <p>
+                    Exploring how technology is changing
+                    the way we live and work.
+                </p>
+                <a href="#">Read Article →</a>
+            </article>
+
+            <article class="blog-card">
+                <p class="blog-category">WEB DEVELOPMENT</p>
+                <h3>Why Websites Matter</h3>
+                <p>
+                    Discover why having a strong online
+                    presence is important today.
+                </p>
+                <a href="#">Read Article →</a>
+            </article>
+
+            <article class="blog-card">
+                <p class="blog-category">DIGITAL WORLD</p>
+                <h3>Ideas That Can Change the Internet</h3>
+                <p>
+                    Interesting ideas, discoveries and
+                    lessons from the digital world.
+                </p>
+                <a href="#">Read Article →</a>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-content">
+
+            <p>LET'S WORK TOGETHER</p>
+
+            <h2>
+                Have a project<br>
+                <span>in mind?</span>
+            </h2>
+
+            <p class="contact-text">
+                I'm always interested in new ideas,
+                projects and opportunities.
+            </p>
+
+            <a href="mailto:your@email.com" class="btn primary">
+                Send Me a Message
+            </a>
+
+<div class="contact-details">
+
+    <a href="tel:+2348083077590" class="contact-link">
+        📞 +234 808 307 7590
+    </a>
+
+    <a href="tel:+2348083077590" class="contact-link">
+        📞 Call Me
+    </a>
+
+    <a href="https://wa.me/2348083077590" class="contact-link">
+        💬 WhatsApp Me
+    </a>
+
+    <a href="mailto:divinechizzy2010@gmail.com" class="contact-link">
+        ✉️ divinechizzy2010@gmail.com
+    </a>
+
+    <p>📍 Nigeria</p>
+
+</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">DC<span>.</span></div>
+
+        <p>
+            © 2026 Divine Chizzy. All rights reserved.
+        </p>
+
+        <p>
+            Built with creativity & technology.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
